@@ -1,0 +1,18 @@
+Backtracking can be defined as a general algorithmic technique that considers searching every possible combination in order to solve a computational problem.
+
+Backtracking is an algorithmic technique for solving problems recursively by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point of time (by time, here, is referred to the time elapsed till reaching any level of the search tree).
+
+
+There are three types of problems in backtracking
+
+Decision Problem – In this, we search for a feasible solution.
+Optimization Problem – In this, we search for the best solution.
+Enumeration Problem – In this, we find all feasible solutions.
+
+
+What is the difference between Backtracking and Recursion?
+Sl. No.	Recursion	Backtracking
+1	Recursion does not always need backtracking	Backtracking always uses recursion to solve problems
+2	A recursive function solves a particular problem by calling a copy of itself and solving smaller subproblems of the original problems.	Backtracking at every step eliminates those choices that cannot give us the solution and proceeds to those choices that have the potential of taking us to the solution.
+3	Recursion is a part of backtracking itself and it is simpler to write.	Backtracking is comparatively complex to implement.
+4	Applications of recursion are Tree and Graph Traversal, Towers of Hanoi, Divide and Conquer Algorithms, Merge Sort, Quick Sort, and Binary Search.	Application of Backtracking is N Queen problem, Rat in a Maze problem, Knight’s Tour Problem, Sudoku solver, and Graph coloring problems.
